@@ -1,0 +1,77 @@
+/* INSTRUCTIONS
+ *
+ * 1) Keep the text inside .intro-content
+ *    in the same place, but have the background
+ *    extend from one side of the viewport
+ *    to the other, no mat ter how wide or narrow
+ *    the browser is.
+ *
+ * 2) Limit the maximum width of the text in the
+ *    bottom area.
+ *
+ * You may modify the HTML if needed
+ * (you probably should for this challenge)
+ *
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  background: #23424a;
+  padding: 50px 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.intro-content {
+  width: 65%;
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  background: #2ac1df;
+  color: #23424a;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2.5em;
+  border-radius: 2em;
+  margin-top: 1em;
+  font-weight: 700;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  text-align: center;
+}
+
+.col + .col {
+  margin-left: 1em;
+}
+
+section {
+  padding: 3em 0;
+}
+
+.section-one {
+  color: purple;
+}
+
+.section-two {
+  background: #5f7e85;
+  color: #fff;
+}
